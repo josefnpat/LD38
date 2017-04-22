@@ -5,7 +5,7 @@ local emotions = {
     n = "loathing",
     c = {255,0,255},
     q = {
-      "Hey",
+      "Hey.",
       "How are you feeling today?",
       "What did you do?",
       "Tell me, do you love?",
