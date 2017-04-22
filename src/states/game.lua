@@ -462,6 +462,7 @@ function game:update(dt)
       choice = nil
       choices = nil
       local index = self:chooseString(cchoice.a,cchoice.value)
+      emotion_audio[cchoice.n]:play()
       table.insert(responses,cchoice.a[index])
     end
   end
